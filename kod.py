@@ -45,7 +45,8 @@ def japanese_to_romaji(japanese_string):
         romaji_string += romaji_dict.get(char, char)
 
     return romaji_string
-wywołaj funkcje:
+
+#wywołaj funkcje:
 
 #japanese_to_romaji('おはようございます') - przykładowe wywołanie
 #przykładowy wynik 'ohayougozaimasu'
